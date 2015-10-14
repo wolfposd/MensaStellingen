@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794A99431BCE5AA800433D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99421BCE5AA800433D6C /* main.m */; };
+		794A99461BCE5AA800433D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99451BCE5AA800433D6C /* AppDelegate.m */; };
+		794A99491BCE5AA800433D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99481BCE5AA800433D6C /* ViewController.m */; };
+		794A994C1BCE5AA800433D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794A994A1BCE5AA800433D6C /* Main.storyboard */; };
+		794A994E1BCE5AA800433D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794A994D1BCE5AA800433D6C /* Assets.xcassets */; };
+		794A99511BCE5AA800433D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794A994F1BCE5AA800433D6C /* LaunchScreen.storyboard */; };
+		794A995A1BCE5AC900433D6C /* MensaConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99591BCE5AC900433D6C /* MensaConnector.m */; settings = {ASSET_TAGS = (); }; };
+		794A99831BCE5C9A00433D6C /* HTMLComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A995D1BCE5C9A00433D6C /* HTMLComment.m */; settings = {ASSET_TAGS = (); }; };
+		794A99841BCE5C9A00433D6C /* HTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A995F1BCE5C9A00433D6C /* HTMLDocument.m */; settings = {ASSET_TAGS = (); }; };
+		794A99851BCE5C9A00433D6C /* HTMLDocumentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99611BCE5C9A00433D6C /* HTMLDocumentType.m */; settings = {ASSET_TAGS = (); }; };
+		794A99861BCE5C9A00433D6C /* HTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99631BCE5C9A00433D6C /* HTMLElement.m */; settings = {ASSET_TAGS = (); }; };
+		794A99871BCE5C9A00433D6C /* HTMLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99651BCE5C9A00433D6C /* HTMLEncoding.m */; settings = {ASSET_TAGS = (); }; };
+		794A99881BCE5C9A00433D6C /* HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99671BCE5C9A00433D6C /* HTMLEntities.m */; settings = {ASSET_TAGS = (); }; };
+		794A99891BCE5C9A00433D6C /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A996A1BCE5C9A00433D6C /* HTMLNode.m */; settings = {ASSET_TAGS = (); }; };
+		794A998A1BCE5C9A00433D6C /* HTMLOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A996C1BCE5C9A00433D6C /* HTMLOrderedDictionary.m */; settings = {ASSET_TAGS = (); }; };
+		794A998B1BCE5C9A00433D6C /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A996E1BCE5C9A00433D6C /* HTMLParser.m */; settings = {ASSET_TAGS = (); }; };
+		794A998C1BCE5C9A00433D6C /* HTMLPreprocessedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99701BCE5C9A00433D6C /* HTMLPreprocessedInputStream.m */; settings = {ASSET_TAGS = (); }; };
+		794A998D1BCE5C9A00433D6C /* HTMLSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99741BCE5C9A00433D6C /* HTMLSelector.m */; settings = {ASSET_TAGS = (); }; };
+		794A998E1BCE5C9A00433D6C /* HTMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99761BCE5C9A00433D6C /* HTMLSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		794A998F1BCE5C9A00433D6C /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99781BCE5C9A00433D6C /* HTMLString.m */; settings = {ASSET_TAGS = (); }; };
+		794A99901BCE5C9A00433D6C /* HTMLTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A997B1BCE5C9A00433D6C /* HTMLTextNode.m */; settings = {ASSET_TAGS = (); }; };
+		794A99911BCE5C9A00433D6C /* HTMLTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A997D1BCE5C9A00433D6C /* HTMLTokenizer.m */; settings = {ASSET_TAGS = (); }; };
+		794A99921BCE5C9A00433D6C /* HTMLTreeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99801BCE5C9A00433D6C /* HTMLTreeEnumerator.m */; settings = {ASSET_TAGS = (); }; };
+		794A99931BCE5C9A00433D6C /* NSString+HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99821BCE5C9A00433D6C /* NSString+HTMLEntities.m */; settings = {ASSET_TAGS = (); }; };
+		794A999C1BCE7C9700433D6C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A999B1BCE7C9700433D6C /* InterfaceController.m */; };
+		794A999F1BCE7C9700433D6C /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A999E1BCE7C9700433D6C /* GlanceController.m */; };
+		794A99A11BCE7C9700433D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794A99A01BCE7C9700433D6C /* Assets.xcassets */; };
+		794A99A61BCE7C9700433D6C /* MensaStellingen WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 794A99A51BCE7C9700433D6C /* MensaStellingen WatchKit 1 App.app */; };
+		794A99AC1BCE7C9700433D6C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794A99AA1BCE7C9700433D6C /* Interface.storyboard */; };
+		794A99AE1BCE7C9700433D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794A99AD1BCE7C9700433D6C /* Assets.xcassets */; };
+		794A99B21BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 794A99981BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		794A99BC1BCE810000433D6C /* LabelRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99BB1BCE810000433D6C /* LabelRowController.m */; settings = {ASSET_TAGS = (); }; };
+		794A99BF1BCE866600433D6C /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99BE1BCE866600433D6C /* Store.m */; settings = {ASSET_TAGS = (); }; };
+		794A99C21BCE8C4C00433D6C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A99C11BCE8C4C00433D6C /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794A99A71BCE7C9700433D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794A99361BCE5AA800433D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794A99A41BCE7C9700433D6C;
+			remoteInfo = "MensaStellingen WatchKit 1 App";
+		};
+		794A99B01BCE7C9700433D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794A99361BCE5AA800433D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794A99971BCE7C9700433D6C;
+			remoteInfo = "MensaStellingen WatchKit 1 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		794A99B91BCE7C9700433D6C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				794A99B21BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		794A993E1BCE5AA800433D6C /* MensaStellingen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MensaStellingen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794A99421BCE5AA800433D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		794A99441BCE5AA800433D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		794A99451BCE5AA800433D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		794A99471BCE5AA800433D6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		794A99481BCE5AA800433D6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		794A994B1BCE5AA800433D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794A994D1BCE5AA800433D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794A99501BCE5AA800433D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		794A99521BCE5AA800433D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794A99581BCE5AC900433D6C /* MensaConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensaConnector.h; sourceTree = "<group>"; };
+		794A99591BCE5AC900433D6C /* MensaConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensaConnector.m; sourceTree = "<group>"; };
+		794A995C1BCE5C9A00433D6C /* HTMLComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLComment.h; sourceTree = "<group>"; };
+		794A995D1BCE5C9A00433D6C /* HTMLComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLComment.m; sourceTree = "<group>"; };
+		794A995E1BCE5C9A00433D6C /* HTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDocument.h; sourceTree = "<group>"; };
+		794A995F1BCE5C9A00433D6C /* HTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLDocument.m; sourceTree = "<group>"; };
+		794A99601BCE5C9A00433D6C /* HTMLDocumentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDocumentType.h; sourceTree = "<group>"; };
+		794A99611BCE5C9A00433D6C /* HTMLDocumentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLDocumentType.m; sourceTree = "<group>"; };
+		794A99621BCE5C9A00433D6C /* HTMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLElement.h; sourceTree = "<group>"; };
+		794A99631BCE5C9A00433D6C /* HTMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLElement.m; sourceTree = "<group>"; };
+		794A99641BCE5C9A00433D6C /* HTMLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLEncoding.h; sourceTree = "<group>"; };
+		794A99651BCE5C9A00433D6C /* HTMLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLEncoding.m; sourceTree = "<group>"; };
+		794A99661BCE5C9A00433D6C /* HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLEntities.h; sourceTree = "<group>"; };
+		794A99671BCE5C9A00433D6C /* HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLEntities.m; sourceTree = "<group>"; };
+		794A99681BCE5C9A00433D6C /* HTMLNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNamespace.h; sourceTree = "<group>"; };
+		794A99691BCE5C9A00433D6C /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		794A996A1BCE5C9A00433D6C /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		794A996B1BCE5C9A00433D6C /* HTMLOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLOrderedDictionary.h; sourceTree = "<group>"; };
+		794A996C1BCE5C9A00433D6C /* HTMLOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLOrderedDictionary.m; sourceTree = "<group>"; };
+		794A996D1BCE5C9A00433D6C /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		794A996E1BCE5C9A00433D6C /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		794A996F1BCE5C9A00433D6C /* HTMLPreprocessedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLPreprocessedInputStream.h; sourceTree = "<group>"; };
+		794A99701BCE5C9A00433D6C /* HTMLPreprocessedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLPreprocessedInputStream.m; sourceTree = "<group>"; };
+		794A99711BCE5C9A00433D6C /* HTMLQuirksMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLQuirksMode.h; sourceTree = "<group>"; };
+		794A99721BCE5C9A00433D6C /* HTMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLReader.h; sourceTree = "<group>"; };
+		794A99731BCE5C9A00433D6C /* HTMLSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLSelector.h; sourceTree = "<group>"; };
+		794A99741BCE5C9A00433D6C /* HTMLSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLSelector.m; sourceTree = "<group>"; };
+		794A99751BCE5C9A00433D6C /* HTMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLSerialization.h; sourceTree = "<group>"; };
+		794A99761BCE5C9A00433D6C /* HTMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLSerialization.m; sourceTree = "<group>"; };
+		794A99771BCE5C9A00433D6C /* HTMLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLString.h; sourceTree = "<group>"; };
+		794A99781BCE5C9A00433D6C /* HTMLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLString.m; sourceTree = "<group>"; };
+		794A99791BCE5C9A00433D6C /* HTMLSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLSupport.h; sourceTree = "<group>"; };
+		794A997A1BCE5C9A00433D6C /* HTMLTextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTextNode.h; sourceTree = "<group>"; };
+		794A997B1BCE5C9A00433D6C /* HTMLTextNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTextNode.m; sourceTree = "<group>"; };
+		794A997C1BCE5C9A00433D6C /* HTMLTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTokenizer.h; sourceTree = "<group>"; };
+		794A997D1BCE5C9A00433D6C /* HTMLTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTokenizer.m; sourceTree = "<group>"; };
+		794A997E1BCE5C9A00433D6C /* HTMLTokenizerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTokenizerState.h; sourceTree = "<group>"; };
+		794A997F1BCE5C9A00433D6C /* HTMLTreeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTreeEnumerator.h; sourceTree = "<group>"; };
+		794A99801BCE5C9A00433D6C /* HTMLTreeEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTreeEnumerator.m; sourceTree = "<group>"; };
+		794A99811BCE5C9A00433D6C /* NSString+HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTMLEntities.h"; sourceTree = "<group>"; };
+		794A99821BCE5C9A00433D6C /* NSString+HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTMLEntities.m"; sourceTree = "<group>"; };
+		794A99981BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MensaStellingen WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794A999A1BCE7C9700433D6C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		794A999B1BCE7C9700433D6C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		794A999D1BCE7C9700433D6C /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		794A999E1BCE7C9700433D6C /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		794A99A01BCE7C9700433D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794A99A21BCE7C9700433D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794A99A51BCE7C9700433D6C /* MensaStellingen WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MensaStellingen WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794A99AB1BCE7C9700433D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		794A99AD1BCE7C9700433D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794A99AF1BCE7C9700433D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794A99BA1BCE810000433D6C /* LabelRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelRowController.h; sourceTree = "<group>"; };
+		794A99BB1BCE810000433D6C /* LabelRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelRowController.m; sourceTree = "<group>"; };
+		794A99BD1BCE866600433D6C /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		794A99BE1BCE866600433D6C /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		794A99C01BCE8C4C00433D6C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		794A99C11BCE8C4C00433D6C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794A993B1BCE5AA800433D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A99951BCE7C9700433D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794A99351BCE5AA800433D6C = {
+			isa = PBXGroup;
+			children = (
+				794A99401BCE5AA800433D6C /* MensaStellingen */,
+				794A99991BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension */,
+				794A99A91BCE7C9700433D6C /* MensaStellingen WatchKit 1 App */,
+				794A993F1BCE5AA800433D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794A993F1BCE5AA800433D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794A993E1BCE5AA800433D6C /* MensaStellingen.app */,
+				794A99981BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension.appex */,
+				794A99A51BCE7C9700433D6C /* MensaStellingen WatchKit 1 App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794A99401BCE5AA800433D6C /* MensaStellingen */ = {
+			isa = PBXGroup;
+			children = (
+				794A995B1BCE5C8800433D6C /* HTMLReader */,
+				794A99441BCE5AA800433D6C /* AppDelegate.h */,
+				794A99451BCE5AA800433D6C /* AppDelegate.m */,
+				794A99BD1BCE866600433D6C /* Store.h */,
+				794A99BE1BCE866600433D6C /* Store.m */,
+				794A99581BCE5AC900433D6C /* MensaConnector.h */,
+				794A99591BCE5AC900433D6C /* MensaConnector.m */,
+				794A99471BCE5AA800433D6C /* ViewController.h */,
+				794A99481BCE5AA800433D6C /* ViewController.m */,
+				794A99C01BCE8C4C00433D6C /* TableViewController.h */,
+				794A99C11BCE8C4C00433D6C /* TableViewController.m */,
+				794A994A1BCE5AA800433D6C /* Main.storyboard */,
+				794A994D1BCE5AA800433D6C /* Assets.xcassets */,
+				794A994F1BCE5AA800433D6C /* LaunchScreen.storyboard */,
+				794A99521BCE5AA800433D6C /* Info.plist */,
+				794A99411BCE5AA800433D6C /* Supporting Files */,
+			);
+			path = MensaStellingen;
+			sourceTree = "<group>";
+		};
+		794A99411BCE5AA800433D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794A99421BCE5AA800433D6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		794A995B1BCE5C8800433D6C /* HTMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				794A995C1BCE5C9A00433D6C /* HTMLComment.h */,
+				794A995D1BCE5C9A00433D6C /* HTMLComment.m */,
+				794A995E1BCE5C9A00433D6C /* HTMLDocument.h */,
+				794A995F1BCE5C9A00433D6C /* HTMLDocument.m */,
+				794A99601BCE5C9A00433D6C /* HTMLDocumentType.h */,
+				794A99611BCE5C9A00433D6C /* HTMLDocumentType.m */,
+				794A99621BCE5C9A00433D6C /* HTMLElement.h */,
+				794A99631BCE5C9A00433D6C /* HTMLElement.m */,
+				794A99641BCE5C9A00433D6C /* HTMLEncoding.h */,
+				794A99651BCE5C9A00433D6C /* HTMLEncoding.m */,
+				794A99661BCE5C9A00433D6C /* HTMLEntities.h */,
+				794A99671BCE5C9A00433D6C /* HTMLEntities.m */,
+				794A99681BCE5C9A00433D6C /* HTMLNamespace.h */,
+				794A99691BCE5C9A00433D6C /* HTMLNode.h */,
+				794A996A1BCE5C9A00433D6C /* HTMLNode.m */,
+				794A996B1BCE5C9A00433D6C /* HTMLOrderedDictionary.h */,
+				794A996C1BCE5C9A00433D6C /* HTMLOrderedDictionary.m */,
+				794A996D1BCE5C9A00433D6C /* HTMLParser.h */,
+				794A996E1BCE5C9A00433D6C /* HTMLParser.m */,
+				794A996F1BCE5C9A00433D6C /* HTMLPreprocessedInputStream.h */,
+				794A99701BCE5C9A00433D6C /* HTMLPreprocessedInputStream.m */,
+				794A99711BCE5C9A00433D6C /* HTMLQuirksMode.h */,
+				794A99721BCE5C9A00433D6C /* HTMLReader.h */,
+				794A99731BCE5C9A00433D6C /* HTMLSelector.h */,
+				794A99741BCE5C9A00433D6C /* HTMLSelector.m */,
+				794A99751BCE5C9A00433D6C /* HTMLSerialization.h */,
+				794A99761BCE5C9A00433D6C /* HTMLSerialization.m */,
+				794A99771BCE5C9A00433D6C /* HTMLString.h */,
+				794A99781BCE5C9A00433D6C /* HTMLString.m */,
+				794A99791BCE5C9A00433D6C /* HTMLSupport.h */,
+				794A997A1BCE5C9A00433D6C /* HTMLTextNode.h */,
+				794A997B1BCE5C9A00433D6C /* HTMLTextNode.m */,
+				794A997C1BCE5C9A00433D6C /* HTMLTokenizer.h */,
+				794A997D1BCE5C9A00433D6C /* HTMLTokenizer.m */,
+				794A997E1BCE5C9A00433D6C /* HTMLTokenizerState.h */,
+				794A997F1BCE5C9A00433D6C /* HTMLTreeEnumerator.h */,
+				794A99801BCE5C9A00433D6C /* HTMLTreeEnumerator.m */,
+				794A99811BCE5C9A00433D6C /* NSString+HTMLEntities.h */,
+				794A99821BCE5C9A00433D6C /* NSString+HTMLEntities.m */,
+			);
+			name = HTMLReader;
+			sourceTree = "<group>";
+		};
+		794A99991BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				794A999A1BCE7C9700433D6C /* InterfaceController.h */,
+				794A999B1BCE7C9700433D6C /* InterfaceController.m */,
+				794A999D1BCE7C9700433D6C /* GlanceController.h */,
+				794A999E1BCE7C9700433D6C /* GlanceController.m */,
+				794A99A01BCE7C9700433D6C /* Assets.xcassets */,
+				794A99A21BCE7C9700433D6C /* Info.plist */,
+				794A99BA1BCE810000433D6C /* LabelRowController.h */,
+				794A99BB1BCE810000433D6C /* LabelRowController.m */,
+			);
+			path = "MensaStellingen WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		794A99A91BCE7C9700433D6C /* MensaStellingen WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				794A99AA1BCE7C9700433D6C /* Interface.storyboard */,
+				794A99AD1BCE7C9700433D6C /* Assets.xcassets */,
+				794A99AF1BCE7C9700433D6C /* Info.plist */,
+			);
+			path = "MensaStellingen WatchKit 1 App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794A993D1BCE5AA800433D6C /* MensaStellingen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794A99551BCE5AA800433D6C /* Build configuration list for PBXNativeTarget "MensaStellingen" */;
+			buildPhases = (
+				794A993A1BCE5AA800433D6C /* Sources */,
+				794A993B1BCE5AA800433D6C /* Frameworks */,
+				794A993C1BCE5AA800433D6C /* Resources */,
+				794A99B91BCE7C9700433D6C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794A99B11BCE7C9700433D6C /* PBXTargetDependency */,
+			);
+			name = MensaStellingen;
+			productName = MensaStellingen;
+			productReference = 794A993E1BCE5AA800433D6C /* MensaStellingen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794A99971BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794A99B61BCE7C9700433D6C /* Build configuration list for PBXNativeTarget "MensaStellingen WatchKit 1 Extension" */;
+			buildPhases = (
+				794A99941BCE7C9700433D6C /* Sources */,
+				794A99951BCE7C9700433D6C /* Frameworks */,
+				794A99961BCE7C9700433D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794A99A81BCE7C9700433D6C /* PBXTargetDependency */,
+			);
+			name = "MensaStellingen WatchKit 1 Extension";
+			productName = "MensaStellingen WatchKit 1 Extension";
+			productReference = 794A99981BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		794A99A41BCE7C9700433D6C /* MensaStellingen WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794A99B31BCE7C9700433D6C /* Build configuration list for PBXNativeTarget "MensaStellingen WatchKit 1 App" */;
+			buildPhases = (
+				794A99A31BCE7C9700433D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MensaStellingen WatchKit 1 App";
+			productName = "MensaStellingen WatchKit 1 App";
+			productReference = 794A99A51BCE7C9700433D6C /* MensaStellingen WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794A99361BCE5AA800433D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WP;
+				TargetAttributes = {
+					794A993D1BCE5AA800433D6C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					794A99971BCE7C9700433D6C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					794A99A41BCE7C9700433D6C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 794A99391BCE5AA800433D6C /* Build configuration list for PBXProject "MensaStellingen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794A99351BCE5AA800433D6C;
+			productRefGroup = 794A993F1BCE5AA800433D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794A993D1BCE5AA800433D6C /* MensaStellingen */,
+				794A99971BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension */,
+				794A99A41BCE7C9700433D6C /* MensaStellingen WatchKit 1 App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794A993C1BCE5AA800433D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A99511BCE5AA800433D6C /* LaunchScreen.storyboard in Resources */,
+				794A994E1BCE5AA800433D6C /* Assets.xcassets in Resources */,
+				794A994C1BCE5AA800433D6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A99961BCE7C9700433D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A99A11BCE7C9700433D6C /* Assets.xcassets in Resources */,
+				794A99A61BCE7C9700433D6C /* MensaStellingen WatchKit 1 App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A99A31BCE7C9700433D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A99AE1BCE7C9700433D6C /* Assets.xcassets in Resources */,
+				794A99AC1BCE7C9700433D6C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794A993A1BCE5AA800433D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A99C21BCE8C4C00433D6C /* TableViewController.m in Sources */,
+				794A99871BCE5C9A00433D6C /* HTMLEncoding.m in Sources */,
+				794A998E1BCE5C9A00433D6C /* HTMLSerialization.m in Sources */,
+				794A99921BCE5C9A00433D6C /* HTMLTreeEnumerator.m in Sources */,
+				794A99851BCE5C9A00433D6C /* HTMLDocumentType.m in Sources */,
+				794A998B1BCE5C9A00433D6C /* HTMLParser.m in Sources */,
+				794A99491BCE5AA800433D6C /* ViewController.m in Sources */,
+				794A99881BCE5C9A00433D6C /* HTMLEntities.m in Sources */,
+				794A99891BCE5C9A00433D6C /* HTMLNode.m in Sources */,
+				794A99461BCE5AA800433D6C /* AppDelegate.m in Sources */,
+				794A998D1BCE5C9A00433D6C /* HTMLSelector.m in Sources */,
+				794A99901BCE5C9A00433D6C /* HTMLTextNode.m in Sources */,
+				794A998A1BCE5C9A00433D6C /* HTMLOrderedDictionary.m in Sources */,
+				794A99831BCE5C9A00433D6C /* HTMLComment.m in Sources */,
+				794A995A1BCE5AC900433D6C /* MensaConnector.m in Sources */,
+				794A99911BCE5C9A00433D6C /* HTMLTokenizer.m in Sources */,
+				794A998C1BCE5C9A00433D6C /* HTMLPreprocessedInputStream.m in Sources */,
+				794A99931BCE5C9A00433D6C /* NSString+HTMLEntities.m in Sources */,
+				794A99431BCE5AA800433D6C /* main.m in Sources */,
+				794A998F1BCE5C9A00433D6C /* HTMLString.m in Sources */,
+				794A99BF1BCE866600433D6C /* Store.m in Sources */,
+				794A99841BCE5C9A00433D6C /* HTMLDocument.m in Sources */,
+				794A99861BCE5C9A00433D6C /* HTMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A99941BCE7C9700433D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794A999C1BCE7C9700433D6C /* InterfaceController.m in Sources */,
+				794A99BC1BCE810000433D6C /* LabelRowController.m in Sources */,
+				794A999F1BCE7C9700433D6C /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794A99A81BCE7C9700433D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794A99A41BCE7C9700433D6C /* MensaStellingen WatchKit 1 App */;
+			targetProxy = 794A99A71BCE7C9700433D6C /* PBXContainerItemProxy */;
+		};
+		794A99B11BCE7C9700433D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794A99971BCE7C9700433D6C /* MensaStellingen WatchKit 1 Extension */;
+			targetProxy = 794A99B01BCE7C9700433D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794A994A1BCE5AA800433D6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794A994B1BCE5AA800433D6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		794A994F1BCE5AA800433D6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794A99501BCE5AA800433D6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		794A99AA1BCE7C9700433D6C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794A99AB1BCE7C9700433D6C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794A99531BCE5AA800433D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794A99541BCE5AA800433D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794A99561BCE5AA800433D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MensaStellingen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.wolfposd.MensaStellingen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		794A99571BCE5AA800433D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MensaStellingen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.wolfposd.MensaStellingen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		794A99B41BCE7C9700433D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MensaStellingen_WatchKit_1_Extension;
+				INFOPLIST_FILE = "MensaStellingen WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.wolfposd.MensaStellingen.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		794A99B51BCE7C9700433D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MensaStellingen_WatchKit_1_Extension;
+				INFOPLIST_FILE = "MensaStellingen WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.wolfposd.MensaStellingen.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		794A99B71BCE7C9700433D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MensaStellingen WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.wolfposd.MensaStellingen.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		794A99B81BCE7C9700433D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MensaStellingen WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.wolfposd.MensaStellingen.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794A99391BCE5AA800433D6C /* Build configuration list for PBXProject "MensaStellingen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A99531BCE5AA800433D6C /* Debug */,
+				794A99541BCE5AA800433D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794A99551BCE5AA800433D6C /* Build configuration list for PBXNativeTarget "MensaStellingen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A99561BCE5AA800433D6C /* Debug */,
+				794A99571BCE5AA800433D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		794A99B31BCE7C9700433D6C /* Build configuration list for PBXNativeTarget "MensaStellingen WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A99B41BCE7C9700433D6C /* Debug */,
+				794A99B51BCE7C9700433D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		794A99B61BCE7C9700433D6C /* Build configuration list for PBXNativeTarget "MensaStellingen WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794A99B71BCE7C9700433D6C /* Debug */,
+				794A99B81BCE7C9700433D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794A99361BCE5AA800433D6C /* Project object */;
+}

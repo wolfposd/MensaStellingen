@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="136" height="21" alignment="left" text="Mensa Stellingen" textAlignment="center" minimumScaleFactor="0.80000000000000004" id="Ygn-CY-tCn"/>
+                        <table alignment="left" id="4T6-NW-Ydy">
+                            <items>
+                                <tableRow identifier="LabelRowController" selectable="NO" id="I3z-lM-yBi" customClass="LabelRowController">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="ZEA-vp-Edq">
+                                        <items>
+                                            <label alignment="left" text="Label" textAlignment="justified" numberOfLines="6" minimumScaleFactor="0.59999999999999998" id="qJa-JO-CtG"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="textLabel" destination="qJa-JO-CtG" id="Aij-s6-h54"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="4T6-NW-Ydy" id="1ye-Nj-aMl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="rjY-Ar-IMT">
+            <objects>
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="gv7-I2-MZq">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="Mensa Stellingen" minimumScaleFactor="0.80000000000000004" id="TGa-9v-kXU"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="eew-Gs-W6Y">
+                            <items>
+                                <table alignment="left" id="DW2-dB-WSu">
+                                    <items>
+                                        <tableRow identifier="LabelRowController" id="nHR-Sd-3gO" customClass="LabelRowController">
+                                            <group key="rootItem" width="1" height="0.0" alignment="left" id="koY-HT-vCt">
+                                                <items>
+                                                    <label alignment="left" text="Label" textAlignment="justified" numberOfLines="2" minimumScaleFactor="0.10000000000000001" id="URk-8R-DLP"/>
+                                                </items>
+                                            </group>
+                                            <connections>
+                                                <outlet property="textLabel" destination="URk-8R-DLP" id="Ms8-RP-vJ2"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="table" destination="DW2-dB-WSu" id="yYj-T8-GiX"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="514"/>
+        </scene>
+    </scenes>
+</document>
