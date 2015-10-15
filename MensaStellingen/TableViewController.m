@@ -56,10 +56,15 @@
              {
                  self.items = @[@"Error fetching stuff", error.description];
              }
-             [self.tableView reloadData];
              
+             [self performSelectorOnMainThread:@selector(reloadTableDataOnMain) withObject:nil waitUntilDone:NO];
          }];
     }
+}
+
+-(void) reloadTableDataOnMain
+{
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -84,6 +89,16 @@
     
     
     cell.textLabel.text = self.items[indexPath.row];
+    
+    if(indexPath.row % 2 == 0)
+    {
+        cell.backgroundColor = [UIColor colorWithRed:1.0 green:0.85 blue:0.72 alpha:1];
+    }
+    else
+    {
+        cell.backgroundColor = [UIColor colorWithRed:1.0 green:0.89 blue:0.71 alpha:1];
+    }
+    
     
     return cell;
 }
