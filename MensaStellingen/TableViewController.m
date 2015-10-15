@@ -24,9 +24,7 @@
     [super viewDidLoad];
     
     self.title = @"Mensa Stellingen";
-    
     [self prepareContent];
-    
 }
 
 -(void) prepareContent
