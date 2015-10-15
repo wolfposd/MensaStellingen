@@ -31,7 +31,6 @@
 {
     if([Store isLastFetchToday])
     {
-        NSLog(@"%@", @"loading store from storage");
         self.items = [Store lastStoredLunch];
         [self.tableView reloadData];
     }
@@ -41,7 +40,6 @@
          {
              if(!error)
              {
-                 NSLog(@"%@", @"fetched stuff no error");
                  NSArray* result = [MensaConnector parseLunchplan:data];
                  
                  [Store setLastFetchToday];
